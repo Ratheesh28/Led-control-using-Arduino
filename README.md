@@ -88,3 +88,4 @@ digitalWrite(ledPin, HIGH);
 
 
 ## RESULT
+Thus to design and implement a system for LED control using an Arduino microcontroller and a push button has been completed successfully.
