@@ -1,4 +1,7 @@
 # Led-control-using-Arduino
+```
+Name: Ratheesh Kumar B R
+Reg no: 212223110040
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -58,9 +61,30 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+![image](https://github.com/user-attachments/assets/e1091050-fd2c-4063-a2f5-2c25e81f360a)
+
 
 ## PROGRAM
+```
+const int ledPin = 12;
+const int buttonPin = 13;
+void setup() {
+pinMode(ledPin, OUTPUT);
+pinMode(buttonPin, INPUT_PULLUP);
+}
+void loop() {
+int buttonState = digitalRead(buttonPin);
+if (buttonState == LOW) {
+digitalWrite(ledPin, LOW);
+} else {
+digitalWrite(ledPin, HIGH);
+}
+}
+```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0f2e7266-3178-46ba-a311-9f7026f95250)
+![image](https://github.com/user-attachments/assets/3509da82-ce27-48ef-a477-756cafa00129)
+
 
 ## RESULT
