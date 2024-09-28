@@ -1,8 +1,7 @@
-# Led-control-using-Arduino
-```
-Name: Ratheesh Kumar B R
-Reg no: 212223110040
-```
+## NAME: RATHEESH KUMAR B R
+## REG NO: 212223110040
+## EXP NO 1:Led control using Arduino
+
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -83,7 +82,9 @@ digitalWrite(ledPin, HIGH);
 ```
 
 ## OUTPUT
+## LIGHT ON
 ![image](https://github.com/user-attachments/assets/0f2e7266-3178-46ba-a311-9f7026f95250)
+## LIGHT OFF
 ![image](https://github.com/user-attachments/assets/3509da82-ce27-48ef-a477-756cafa00129)
 
 
